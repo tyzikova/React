@@ -1,0 +1,30 @@
+footer {
+  height: 7vh;
+  width: 100%;
+  flex: 0 0 auto;
+  padding: 0 10px;
+  background: #262637;
+  font-size: 16px;
+  font-family: 'Sansita Swashed', cursive;
+  color: #00deb6;
+  letter-spacing: 2px;
+  box-shadow: 4px -2px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.imageLogo {
+  width: 65px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #00deb6;
+}

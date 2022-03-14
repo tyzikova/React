@@ -1,0 +1,39 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "npm run lint && cross-env NODE_ENV=production webpack",
+    "start": "webpack-dev-server",
+    "lint": "eslint src/**/*.jsx",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.17.5",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "babel-loader": "8.2.3",
+    "cross-env": "7.0.3",
+    "css-loader": "6.7.1",
+    "eslint": "8.10.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.29.3",
+    "html-webpack-plugin": "5.5.0",
+    "prettier": "2.5.1",
+    "sass": "1.49.9",
+    "sass-loader": "12.6.0",
+    "style-loader": "3.3.1",
+    "webpack": "5.70.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.4"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
